@@ -1,0 +1,204 @@
+FRM part I program
+
+FRM Core Reading
+
+FRM Handbook
+
+期权 期货 其他衍生产品
+
+practice exams
+
+riks and return
+
+definition of risk
+	unexpected variability a mix of danger and opportunity
+sources of risk
+	business decisions and the business environment
+financial risks are the results of a firm's financial markert risk
+
+market risk 
+credit risk
+operational risk
+liquidity risk
+
+risk treatment
+
+risk avoidance 躲
+
+risk transfer ,
+	financial derivatives
+	
+risk reduction
+	diversificaiton
+
+risk retention
+
+狠 忍 滚 混
+
+market paricipants
+hedgers
+speculators
+arbitrageurs
+arbitrageurs
+market maker
+
+framework
+
+LIBOR London Inter-bank Offered Rate
+
+1 3 6
+
+货币市场 在一年以内
+
+回购 repurchase repo
+
+corporate-based
+MA equity corporate bond VC PE
+
+non-corporate
+treasury derivatives gold index
+
+equity
+manipulate
+SEC
+fake
+no short
+too many
+
+margin
+
+borrower issuer
+lender holder investor
+
+how long
+how much 借多少 换多少 利息多少
+
+maturity
+face value principal par
+interest coupon 
+
+pricing
+
+duration
+PV = nEi=1 FV/ (1+y)^i
+
+credit risk
+rating agency
+probability of default
+
+FICO
+
+IF300
+Hang Seng
+Nikkei225
+S&P 500
+DJIA
+Nasdaq
+FTSE100
+
+USD CNY EUR GBP
+
+gold oil
+copper,AL
+wheat/soybean/corn
+
+Libor
+10-yr treasuryrate
+
+math & calculation tools
+
+myscript calculator
+TI-nSpire CX CAS
+
+MATLAB
+Quant Finance
+Fin : Math : Coding
+3:5:2
+1:8:1
+
+LaTeX
+
+coding tools
+Xcode
+
+Emacs
+鸟哥的linux私房菜
+(这都是大学看完的，囧,还有数学，没想到绕了一圈又回来了)
+
+The Wall Street Journal
+MarketWatch
+iFutures
+finance.yahoo.com
+
+The Economist 
+world in figures
+
+Libor Rates
+
+portable trading
+splashtop 
+sunflower
+FXCM Trading Station
+dropbox.com
+goodsync
+
+www.QuantStart.com
+GRAP.com
+MOOC and iTunesU
+阅微堂
+http://zhiqiang.org/blog
+
+language enhancement
+
+TED
+The Economist
+google translate
+TextGrabber + Translator
+
+for reading
+
+My Life as a Quant
+The Ph.D. Grind
+程序员 杂志
+CBNweekly
+Wolfram Alpha Mathematia
+Wikipedia
+Evernote
+Fine Scanner
+Enigma Machine Simulator
+
+www.HenryLiang.com
+网易云课堂 Henry Liang Cracking FRM Models
+
+spot market 现货市场
+forward market 远期市场
+
+spot > K 
+long 买方 = S-K = 30
+short 卖方 = -30
+
+spot < K
+long 买方 = -30
+short = 30
+
+zero sum
+long 看涨
+short 看跌
+
+time
+
+futures
+option
+
+value of option
+
+山东黄金 stock 
+index
+
+foward OTC over the counter
+
+swaps
+
+
+
+

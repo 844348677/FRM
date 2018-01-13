@@ -1,0 +1,907 @@
+基础
+1.计算的基础
+2.FRM 利率，时间价值
+3.calculator
+统计学，计量经济学，时间序列
+
+foundations of risk management 20
+风险，最新风险管理理念，案例
+quantitative analysis 20
+financial markets and products 30
+远期，期货，期权，互换，估值，债券
+valuation and risk models 30
+估值 期权，债券 风险度量
+
+preparation
+the usage of financial computer
+概率
+basi concepts
+numerical characteristics of
+random variables
+统计 描述性统计 推断统计
+probability distributions
+(discrete&contrinuours)
+point estimate and confidence intervals
+hypothesis test
+计量经济学
+linear regression
+y = a + bx
+模拟 simulation
+Monte Carlo Methods
+
+应用
+基本原理-理解
+做题 适当
+
+core reading quantitative analysis
+handbook 6th edition quantative analysis
+
+AB交集 AB
+AB并集 AUB A+B
+
+互斥 mutually exclusive
+
+频率分布直方图
+组间距
+频率 frequency
+
+didstribution 分布
+
+众数 mode
+median 中位数
+
+排列P
+组合C
+
+泰勒公式
+f(x)-f(x0) = f'(x0)(x-x0)+1/2f''(x0)(x-x0)^2
+债券期权
+
+quadratic
+二次函数
+y=ax^2+bx+c 
+a>0 a<0
+y=x^2+y^+wxy=(x+y)^2
+y=(x-y)^2
+平方和 平方差
+
+
+指数函数
+exponential
+y=e^x
+
+对数函数
+y=log_a x
+a>1 0<a<1
+lgN log_10(N)
+lnN log_e(N)
+
+log_a(1)=0 log_a(a)=1 log_a(a^b)=b*log_a(a)
+
+log_a(M)+log_a(N) =log_a(MN)
+log_a(M)-log_a(N) = log_a(M/N)
+nlog_a(M) = log_a(M^N) n is R
+a^log_a(N) = N
+
+the interest rate
+required rate of return 必要报酬率
+supply and demand of funds in the market
+discount rate 折现率
+r=1.25%
+100/(1+1.25%) 折现率
+
+opportunity cost 机会成本
+a form of interest rate
+
+real risk-free rate 已购买力衡量
+expected inflation rated
+
+credit risk premium 
+liquidity risk premium
+
+the interest rate
+pv:present value
+FV:future value
+
+100 100(1+10%)
+
+simple rate
+compound rate
+
+effective annual
+100(1+10%/365)^365 / 100 -1
+
+(1+r/n)^n -1
+n -> 无穷
+e^r -1
+continuously compounding rate
+
+FV = 100e^r
+pv 100/(e^r) =100e^-r
+FV = 100e^(nr)
+pv = 100e^(-nr)
+
+continuously compounded rate 
+
+summation notation
+
+线性运算
+
+PV FV PMT I/Y
+
+NPV/IRR
+
+债券
+面值 par/principal = 100
+
+息票 coupon = 10%
+期限3年
+每一年计一次利息
+市场利率 y=8%
+
+p = 10/(1+8%) + 10/(1+8%)^2+110/(1+8%)^3
+
+yeild to maturity
+
+NPV / IRR
+-100 20 50 50
+-100 + 20/(1+10%) + 50/(1+10%) + 50/(1+10%) = NPV
+net present value
+净现值
+
+-100 + 20/1+y + 50/(1+y)^2 + 50/(1+y)^3 = 0
+=> y=? 
+y IRR internal rate of return
+
+年金 annuity
+100 10年 利率10% 每年换多少
+100 = PMT/(1+10%) +
+
+phenomenon
+
+certain phenomenon
+uncertain phenomenon
+
+random experiment & random variables : is an uncertain quantity or number
+结果不确定的事项
+random event : is a single outcome or a set fo outcomes
+
+mutually exclusive events 互斥
+	are event that cannot both happen at the same time
+
+collectively exhaustive 完备 穷举
+	are those that include all possible outcomes
+
+收入
+
+population 总体 2000
+sample 样本 10
+
+健康
+财富
+房屋需求 
+教育状况
+=> 量化 random variables
+
+总体 希腊字母 u 
+样本 英文字母 xbar s
+
+random variables
+capital letters
+ X Y Z
+ X={收入}
+the values small letters 
+ x y z
+x= 10
+
+discrete random variable 离散 有限/可数
+continuous random variable 连续 无限/不可数
+
+probability 可能性
+probability of an event 
+	the classical or a priori definition 古典概率
+P(A) = number of outcomes favorable to A / total number of outcomes
+
+frequency method
+100 loans 2 default 2/100
+
+probability calculation
+properties of probabilities
+the probability of an event always lies between 0 and 1
+0 <= P(A) <= 1
+P(A) = 1
+
+mutually exclusive events
+P(A+B) = P(A) + P(B)
+
+and collectively exhaustive
+P(A+B+C+D)=P(A)+P(B)+P(C)+P(D) = 1
+
+addition rule 加法
+p(A+B)=P(A) + P(B) - P(AB)
+
+for every event A , there is an event A',called the complement of A:
+P(A+A') = 1
+P(AA') = 0
+p(A+A') = P(A)+P(A')-P(AA') = P(A)+P(A') = 1
+
+conditional probability P(A|B) 条件
+unconditional probability P(A) P(B)
+
+P(A|B) = P(AB) / P(B)
+
+joint probability 
+P(AB) = P(A)P(B|A) = P(B)P(A|B)
+同时发生
+
+独立
+p(B|A)=P(B) P(A|B)=P(A)
+P(AB) = P(A)P(B)
+
+independent events
+the occurence of A has no influence on the occurence of B
+B is independetn of A
+P(AB) = P(A)P(B)  P(B|A)=P(B)  P(A|B)=P(A)
+
+概率
+probability density funciton and cumulative density function
+
+discrete
+probability distribution of a discrete random variable
+
+累积概率
+F(1) = P(X<=1)
+F(2) = P(X<=2)
+
+离散 点概率
+
+连续 区间概率
+probability distribution of a continuous random variable
+
+probability density function 
+f(x)
+P(x1<X<x2) = fx1x2 f(x)dx 积分 积分面积为概率
+p(X=xi) = 0
+
+the total area under the curve f(X) is 1
+
+cumulative distribution function
+
+P(a <= X <= b) = F(b) - F(a)
+F(a) = P(X <= a)
+F(c) = P(X <= c)
+F(b) = p(X <= b)
+
+joint distribution 联合分布
+
+the bivariate probability distribution
+
+marginal 边际 y=0 y=1 y=2 y=3 y=4 x=0 x=1 x=2 x=3 x=4 unconditional
+
+P(X=1,Y=1)=0.05
+
+total probability formula 全概公式
+
+Bayes'Thoery
+P(AB)=P(A)P(B|A)=P(B)P(A|B)
+P(A|B)=P(A)*P(B|A)/P(B)
+ 
+ 统计
+ descriptive 描述性统计
+ reference 推断性统计
+
+平均值
+方差
+
+偏度
+
+峰度
+
+协方差 相关系数
+
+numerical characeristics of random variables
+随机变量的数字特征
+expectations 期望
+variance standard deviation 方差 标准差
+covariance 协方差
+correlation coefficient 相关系数
+skewness 偏度
+kurtosis 峰度
+
+expected value 集中趋势 平均值
+	a measure of central tendency - the first moment
+E(X) = summation P(Xi)*Xi
+
+if b is a constan, E(b) = B
+if a is a constant , E(aX)=aE(X)
+if a and b are constants , then E(aX+b) = aE(X)+E(b) = aE(X) + b
+E(X+Y)= E(X)+E(Y)
+
+in general E(XY) \=/ E(X) E(Y)
+当XY相互独立
+E(XY)=EXEY
+E(XY) = summation Pxy(XY)
+	= PxPy XY
+	=summation (Px*X)(Py*Y)
+
+E(X)
+	加权平均数 summation xi*P(x)
+mode
+median
+
+summation Pi*(xi-E(x))^2 = segma_x^2
+variance
+	a measure of disperison 离散
+standard deviation also called volatility
+
+E(x-u)^2
+=E(x^2)-(E(x))^2
+平方的期望，减期望的平方
+
+the variance of a constant is zero
+if a is constant segma^2(aX) = a^2*segma^2(X)
+if b is a constant , then segma^2(X+b) = segma^2(X)
+a and b are constant (aX+b) = a2 X
+
+if X and Y are two independent random variables
+ segma^2(X+Y) = segma^2(X) + segma^2(Y)
+ segma^2(X-Y) = segma^2(X) + segma^2(Y)
+和的方差 等于 方差的和
+差的方差 等于 方差的和
+
+XY不独立
+segma^2(X+-Y) = segma^2(X) + segma^2(Y) +- 2cov(X,Y)
+
+XY独立 cov(X,Y)=0 协方差为0
+
+cov(X,Y) = E(X-ux)(y-uy) 定义
+
+联合概率
+X/Y Y1 Y2
+X1  P1 P12
+X2 P21 P2
+
+P1*(X1-Xbar)(Y1-Ybar)
+P12*(X1-Xbar)(Y2-Ybar)
+P21*(X2-Xbar)(Y1-Ybar)
+P2*(X2-Xbar)(Y2-Ybar)
+summation cov(X,Y) 计算
+
+cov(X,Y) = E(XY) -E(X)E(Y)
+covariance measuer how on random variable moves with another random variable
+
+X E(X) rise
+Y E(Y) rise
+cov(X,Y) >0
+convariance ranges from negative infinity to positive infinity
+
+if X and Y are independent random variables, their covariance is zero
+Cov(X,X) = segma^2(X)
+
+correlation coefficient
+相关系数
+消除 cov(X,Y) 量纲影响
+
+correlation coefficient
+pxy = Cov(X,Y)/segma_x*segma_y 标准化
+correlation has no units rangs from -1 to +1
+没有单位，相关系数 等于 协方差除以两个标准差
+correlation measures the linear relationship 线性相关关系
+
+p=1 perfect positive correlation
+p=-1 perfect negative correlation
+
+p=1 y=0.5x
+p=1 y=0.8x
+p=1 y=2x
+二者是否存在线性关系
+关系强弱
+
+p=0 no linear correlation
+
+if two variable are independent their covanriance is zero therefore the correlation coefficient will be zero
+
+p=0 \=> X,Y独立，只能说明没有线性关系
+    <=
+
+segma^2(x+-y) = segma^2(x) + segma^2(y) +- 2pxy*segma_x*segma_y
+skewness 偏度
+	a measure of asymmetry of a PDF 不对称
+S =  E(X-ux)^3/segma^3(x)
+	third moment about mean / cube of standard deviation
+
+mean median Mode
+
+Symmetric
+	mean = median = mode
+
+negative skewed left skewed
+tail is on the left
+outlier 异常值
+fat tail
+mean < median < mode
+
+positive-skewed right-skewed
+mode < median < mean
+
+FRM -> risk -> tail
+
+kurtosis
+对比，正态分布
+normal distribution 3
+尖峰 > 3
+kurotsis
+leptokurtic > 3
+mesokurtic = 3
+platykurtic < 3
+excess kurosis = kurtosis-3
+
+tails assuming same variance
+letokurtic fat tail
+mesokurtic normal
+platykurtic thin tail
+
+the first monent 一阶距 expected value
+variance 二阶距 the second moment
+skewness 三阶距 the third moment
+kurtosis the forth moment
+
+Chebyshev's Inequality 切比雪夫 不等式
+P(u-k <= X <= u+k ) >= 1-1/k^2
+
+regardless of the shape of the distribution
+
+lin within 2,3,4 standard deviations of the mean
+1-1/2^2,1-1/3^2,1-1/4^2
+
+Cov(ax+by,cx+dy)
+=Cov(ax,cx+dy)+Cov(by,cx+dy)
+=Cov(ax,cx)+Cov(ax,dy)+Cov(by,cx)+Cov(by,dy)
+=ac*Cov(x,x) + ad*Cov(x,y) + bc*Cov(y,x)+bd*Cov(y,y)
+=ac*segma^2(x)+(ad+bc)*Cov(x,y)+bd*segma^2(y)
+
+correlation coefficient
+
+计量
+c=a+by 
+回归分析
+一元回归 多元回归
+时间序列
+ARMA
+GARCH
+
+simulation
+calculator
+
+>= 1-1/k^2
+
+probability distributions
+binomial 二项式分布
+发生次数的概率
+
+loan x=1 x=0 
+Bernoulli distribution
+P(X=1)=p P(X=0)=1-p
+binomial distribution
+二项式分布
+1.含义 事件发生的次数 100 8
+P(X=8) = C_100 8 (1/4)^8*(1-1/4)^(100-8)
+
+P(x)=P(X=x)=C_n^x p^x*(1-p)^(n-x) 
+
+ber
+E(x) = 0*(1-p) + 1*p = p
+var(x) = E(x-E(x)^2
+	= (1-p)*(0-p)^2 + p*(1-p)^2 = p(1-p)
+
+bernoulli random variable p p(1-p)
+binomial random variable np np(1-p)
+
+binomial distribution n->8  nominal distribution
+
+Poisson 
+poisson distribution
+1.含义
+发生次数的概率
+p=0.005 n=1000
+C1000 999 0.005^999 * (1-0.005)^1
+不可以
+lambda = np = 1000*0.005 = 5
+
+p(k) = p(X=k) = lambda^k/k! *e^-lambda
+
+E(x) = delta(x) = lambda
+
+p=0.0001 1000 p(X=4) poisson
+lambda = np = 0.0001*1000 = 0.1
+
+p(x=4) = 0.1^4/4! * e^-0.1
+
+FRM 2
+操作风险发生的次数
+泊松分布建模
+
+uniform distribution 均匀分布
+probability density function
+
+f(x) =  1/b-a a<x<b 
+	0 otherwise
+
+F(x) = x-a / b-a for a<x<b
+	0 for x <= a
+	1 for x >= 1
+
+E(X) = (a+b)/2
+D(X) = (b-a)2/12
+了解
+
+normal distribution 正态分布 连续
+
+the shape of the density function
+bell-shape
+
+1/ 2*pi*delta ^1/2 *e^-1/2delta^2 *(x-u)^2
+密度函数复杂
+
+1.X~N(u,delta^2)
+2.symmetrical distribution skewness=0;kurtosis=3
+3.the tails get thin and go to zero but extend infinitely asympotic 渐进
+4.X~N() Y~N() => aX+bY ~ N()
+
+the confidence intervals
+
+双尾 two tails
+
+-1.96sigma 1.96sigma 95% 2.5% 2.5%
+P(u-1.96sigma <= x <= u+1.96sigma) = 95%
+95% confidence level
+5% level of significence
++-1.96 critical value
+
+95% +-1.96
+99% +-2.58
+90% +-1.65
+
+单尾 
+1.65 95% 5%
+2.33 99%
+
+查表
+
+standard normal distribution  正态分布的标准化
+X~N(u,delta^2)
+x-u/deltax ~(0,1)
+
+E(x-u/sigma_x) = E(x)-u/sigma_x =u-u/sigma_x =0
+
+var(ax+b) = a^2var(x)
+var(x-u/sigma_x) = var(x)/sigma^2_x = 1
+
+查表
+x-u/sigma_x = Z
+
+N(0,1) Z
+standardization
+Z-table
+F(-z) = 1-F(z) cumulative function
+P(Z>z) = 1-F(z)
+
+X~N(2,9)
+u=2 sigma_x=3
+P(3 <= x <= 4)
+=P(3-2/3 <= x-2/3 <= 4-2/3)
+=p(1/3 <= z <= 2/3)
+=F(2/3) -F(1/3)
+=f(0.67)-F(0.33)
+
+cumulative Z-TABLE
+
+chi-square distribution
+
+卡方分布2018/1/13
+用途
+假设检验
+检验总体的方法是否等于具体的值
+右偏
+
+t distribution
+1.来源
+X~N(0,1)
+Y~X^2(n) 卡方分布
+X/(Y/n)^1/2 ~ t(n)
+
+2.t_n-1
+t=Xbar - u_x / S_x/n^1/2 
+sample mean - population mean 
+/ sampe standard deviation / n^1/2
+
+3.用途
+假设检验
+
+4.性质
+symmetric
+mean of t distribution is zero
+variance n/(n-2)
+
+低峰
+肥尾
+n/(n-2) >1
+larger than the variance of the standard normal distribution
+flater
+n ->8 normal
+
+F distribution
+1.来源
+u ~ X^2(m)
+v ~ X^2(n)
+u,v 相互独立
+F = u/m / v/n ~ F(m,n)
+
+2.用途
+检验两个方差是否相等
+sigma^2 =sigma^2
+
+右偏
+
+50m u=3% sigma=7%
+200m u=7% sigma=15% 
+相互独立 rho=0
+20%
+80%
+
+u_p = w1u1 + w1u2
+sigma_p = (w1sigma1)^2+w2sigma2^2
+
+推断
+estimation and hypothesis testing
+population
+sampling
+sample
+sample statistic xbar Sx
+estimation
+population parameter u sigema
+
+准不准 假设检验
+
+sample mean
+
+xbar = summation xi/n
+
+u = summation Xi/N
+
+sample variance
+Sx^2 = summation (Xi-Xbar)^2/(n-1)
+sigmax^2 = summation (Xi-u)^2/N
+the expression (n-1) is known as the degrees of freedom
+
+sample estimator
+poupulation parameter
+
+the central limit theorem CLT
+中心极限定理
+任何变量x  (n>=30)
+xbar ~ N(u_x,sigma_x^2/n),其中u_x,sigema_x^2总体均值，方差
+xbar 为样本均值 不确定值 随机变量 
+
+100_1 169
+100_2 170
+100_n 162
+因此样本均值为随机变量
+中心极限
+
+point estimation
+点估计
+
+confidence interval estimation 
+区间估计
+(xbar +- k*S_x)
+P(xbar-k*S_x <= u <= xbar+k*S_x)
+1.采用分布 z,t
+2.confidence level (95%,99%)
+eg : 95% normal k=+-1.96
+S_x = ?
+
+CLT n>=30
+xbar ~ N(u_x,sigma_x^2/n)
+S_x = sigma/n^1/2
+用样本的标准差估计 S_X
+standard error
+S_x= S_x/n^1/2
+
+S_x = summation xi-xbar/n-1
+
+z,t
+总体方差已知，用z
+总体方差未知，用t
+非正态总体，小样本，无法确定
+
+sample 
+(xbar,Sx)
+=>
+population
+(u,sigma_x)
+
+假设检验
+
+95% confidence level
+5% level of signifance
+1.96 criticle value
+
+99% 
+90%
+two tail
+
+one-tail
+1.645
+
+hypothesis tests
+假设检验
+
+原假设 null
+alternative hypotheses 备择假设
+
+假设检验
+先猜后证
+1.提出原假设 猜总体
+H0 u=170cm
+Ha u \= 170cm
+
+双尾
+
+单位双尾 看备择假设
+= 放原假设
+
+H0 u>=170cm
+Ha u<170cm
+
+2 检验工具 test statistics 检验的统计量
+identify the test statistic
+xbar - u /S_xbar
+样本均值 - 猜的总体均值 / 样本均值的标准差
+
+总体方差已知 sigma_x / n^1/2 z分布
+总体方差未知 S_x / n^12 样本方差 t分布
+
+3.画出分布 (z,t) 确定拒绝域
+
+95% 99% 90%
+
+test statistics
+reject area 
+
+拒绝域 确定
+1.z,t 分布
+2.95% 99% 90% confidence level
+3.双尾/单尾 备择假设
+
+confidence level 95% 
+level of significance 1-95% = 5% 显著性水平
+
+4评定
+比较 test statistics and critical value
+
+reject H0
+p-value 检验统计量 对应的概率
+
+2.5% 95% 2.5%
+p越小越拒绝
+单侧 p < alpha 拒绝
+双侧 p < alpha/2 拒绝
+
+p and level of significance
+
+hypothesis
+significance level(alpha) 5%
+
+reject H0 fail to reject H0 reject H0
+
+fail to reject H0 reject H0
+接受域 拒绝域
+
+P-value Testing
+
+统计上 
+
+decision H0 is true H0 is false
+accept H0 H0 is true correct decision 
+reject H0 H0 is true incorrect desion Type I error 去真 
+accept H0 H0 is false incorrect decision Type II error 存伪
+reject H0 H0 is false power of test
+
+P(type I) = alpha
+type I type II 此消彼长
+p(type II) = 1 - p(power of test)
+
+当n 增加 type I / type II 减小 power of test 增加
+
+99% => 95% 
+alpha 1% => 5% type I 增加 type II 下降 power of test 增加
+
+linear Regress
+
+regression analysis
+
+dependent variable 因变量 Y 被解释变量
+independent variable 自变量 X 解释变量
+
+epsilon
+
+c = b0 + b1y + e
+
+方程一般化
+
+最小二乘法
+
+minimize the squared residuals 残差 error terms
+
+分别对b0,b1求导 
+b1= Cov(X,Y)/Var(X)
+b0 = Y-b1X
+
+y = 200 + 0.75x
+作用
+二者的变动关系
+预测
+
+the assumption of the linear regression
+
+a linear relationship exists between X and Y
+X is not random X is uncorrelated with the error term
+Cov(x,e) = 0
+the expected value of the error term is zero
+E(e)=0
+the variance of the error term is constant
+the error terms are homoskedastic 异方差
+
+var(e) constant
+the error term is uncorrelated across observations
+自相关
+
+多重共线性
+
+假设
+y=a+bx
+y=a+b1x1+b2x2+...
+检验
+y=200+0.75x
+1.系数的显著性检验 t
+2.方程的显著性检验 F
+3.对于假设 进行检验
+
+monte carlo methods
+simulation
+
+u drift 漂移项
+epsilon delta t ^1/2 => delta z ~N(0,delta t)
+wiener process 维纳过程
+
+假设:
+lnS ~ N()
+S ~ lognormal 对数正态
+
+Geometric brownian motion GBM model 几何布朗运动
+stock price and
+
+u=0 delta=0.2 delta t=0.01
+epsilon_1=0.521 epsilon_2=1.22
+
+时间序列模型
+ARMA
+Garch EWMA 波动率
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
