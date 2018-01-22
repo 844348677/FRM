@@ -1,0 +1,487 @@
+1.知识点
+2.英语
+3.calculator
+4.题
+
+FRM risk management
+
+level I
+1
+foundation 20%
+什么是风险 最新的风险管理理念 cases
+组合管理理论
+
+2
+定量 20%
+统计学 计量经济学 时间序列分析(应用)
+
+3.
+市场与产品
+金融工具 
+债券 远期 期货 期权 互换 资产证券化 30%
+
+4.
+估值与风险
+债券 期权 估值 市场风险 信用风险 操作风险 国家风险 30%
+
+level II
+
+1. market risk 25%
+2. credit risk 25%
+3. operational risk model risk liquidaty risk 巴塞尔协议 25%
+银行风险管理问题
+4. portfolio risk investment 15%
+5. current issues 10%
+
+定量
+计算的基础
+
+概率 统计 计量经济学 时间序列
+基本概念的理解
+应用 题目适当
+推导 忽略
+
+random experiment 随机试验 结果不确定的事项
+outcome 结果
+	the result of a single trial 
+event 事件 结果的集合
+mutually exclusive events 互斥事件
+	events that cannot both happen at the same time
+exhaustive events 完备事件
+	those include all possible outcomes
+
+population 总体
+sample 样本
+
+某种特征的量化 随机变量
+均值 方差
+总体 希腊字母 mu sigma
+样本 英文字母 xbar s
+
+random variable
+	continuous
+	discrete
+
+probability 概率
+1 classical probability
+P(A) = number of outcomes favorable to A / total number of outcomes
+2 frequency
+two defining properties of probability
+0 <= P(E) <= 1
+mutually exclusive and exhaustive
+
+概率的计算
+conditional probability 概率的除法
+P(A|B) = P(AB) / P(B)
+unconditional probability P(A) P(B)
+
+2 乘法
+joint probability P(AB) AB同时发生
+P(AB) = P(A|B)*P(B) = P(B|A)*P(A)
+if A and B are mutually exclusive events
+P(AB) = P(A|B) = P(B|A) = 0
+
+3 求和
+probability that at least one of two events will occur
+P(A or B) = P(A) + P(B) - P(AB)
+if A and B are mutula exclusiv events
+P(A or B) = P(A) + P(B)
+
+4 独立性
+the ovvurrence of A has no influence of  on the occurrence of B
+P(AB) = P(A)*P(B)
+P(A|B) = P(A)
+独立事件的判定原则
+
+independence and mutually exclusive 
+if exclusive must not independence
+
+6 全概公式
+total probability formula
+公式不用记
+
+Bayes' Theorem
+
+probability distribution
+
+discrete
+probability function 
+p(x) = P(X=x)
+
+P(x <= 2) =  P(x=1) + P(x=2)
+cumulative probability function
+F(x)
+
+probability distribution of a continuous random variable
+probability density fucntion
+f(x)
+区间概率
+the total area under the curve f(x) is 1
+p(x=xi) = 0
+
+cumulative distribution function CDF
+F(X) = P(X <= x)
+
+properties of CDF
+F(X) is a non-decreasing function
+P(X >= k) = 1 - F(k)
+
+multivariate probability density function 2个变量
+probability matrix
+f(X,Y) = P(X=x and Y=y)
+marginal/unconditional probability P(y=1) P(y=2) P(x=1) P(x=2)
+
+statistical independence
+P(AB) = P(A)P(B)
+P(x=2,y=2)
+P(x=2) p(y=2)
+
+统计学
+populatin sample
+
+偏度 峰度
+
+1.描述性统计
+2.推断性统计
+
+1.epxected value 均值 期望值
+a measure of central tendency
+E(X) = summation xi*P(xi)
+
+properties of expected value
+if b is a constant E(b) = b
+if a is a constant E(aX) = aE(X)
+E(aX+b) = aE(X) + b
+
+E(X^2) /= (E(X))^2
+
+E(X+Y) = E(X) + E(Y)
+E(XY) /= E(X)E(Y)
+if X and Y are independent E(XY) = E(X)Y(Y)
+
+variance
+summation (xi - E(X))^2*Pxi
+离散
+a measure of dispersion
+
+E(X^2) - (E(X))^2
+
+the standard deviation volatility 波动率
+
+properties of variance
+the variance of a constant is zero
+sigema(ax)^2 = a^2 * sigma(X)^2
+sigma(ax+b) = a^2 * sigma(X)^2
+sigma(x+-y) = sigma(x)^2 + sigma(y)^2 +- 2Cov(x,y)
+x,y are independent ramdom variable Cov(x,y)=0
+
+sample mean
+sample variance
+Sx^2 n-1
+
+Cov(X,Y)
+convariance 
+含义
+取值范围 neg infinite infinite
+
+p11 * (x1-xbar) * (y1-ybar)
+p12 * (x2-xbar) * (y1-ybar)
+p21 * (x1-xbar) * (y2-ybar)
+p22 * (x2-xbar) * (y2-ybar)
+
+if x and y independent random variables Cov(x,y)=0
+Cov(x,y) sigma(x)^2
+Cov(a+bX,c+dY) = b*d*Cov(X,Y)
+量纲 单位
+
+correlation coefficient 相关系数 协方差的标准化
+rho_xy = Cov(X,Y)/sigma_x*sigma_y
+
+correlation has no units ranges from -1 to +1
+
+perfect positive correlation
+positive linear correlation
+no linear correlation
+negative linear correlation
+prefect negative correlation
+
+skewness 偏度
+a measure of asymmetry
+S = E(X-mu)^3/ sigma^3 正负
+尾部
+mean
+median 中位数
+mode 众数
+
+kurtosis 峰度
+for a normal distribution , the k value is 3
+leptokurtic >3
+mesokurtic = 3
+platykurtic <3
+
+excess kurtosis = kurtosis - 3
+
+moment 距
+the first moment
+the second moment
+the third moment
+the fourth moment
+
+chebyshev's inequality
+mu 
+mu-k*sigma mu mu+k*sigma
+P(mu-k*sigma <= x <= mu+k*sigma) >= 1 - 1/k^2
+
+
+sample population
+distribution 桥梁
+
+discrete
+continuous
+
+Bernoulli distribution 0-1 2点 伯努利
+P(X=1)=p P(X=0)=1-p
+
+二项式分布 binomial random variable np np(1-p)
+1.含义 发生次数的概率
+2.计算
+3.性质
+
+n 无穷 N()
+
+Poisson distribution 泊松分布
+事件放生的次数的概率
+n=1000 p=0.0001
+样本大，概率小
+
+lambda = np
+单位时间事件发生的次数
+p(k) = P(X=k) = lambda^k/k! * e^-lambda
+
+properties
+E(X) = D(X) = lambda
+
+when lambda is large the Poisson distribution is approximated by the Normal distribution
+
+continuous uniform distribution 均匀分布
+probability density function
+1/(b-a)
+cumulative distribution function
+(x-a)/(b-a)
+
+特征
+E(X) = (a+b)/2
+D(X) = (b-a)^2/12
+积分
+P(x1<x<x2)
+
+normal distribution
+bell-shaped
+symmetrical
+
+X~N(mu,sigma^2)
+skewness=0,kurtosis=3
+x y ax+by
+
+the confidence intervals
+90% 1.645*sigma
+95% 1.96*sigma
+1-95% = alpha significance level
+95% confidence level
+1.96 critical value
+[mu-1.96*sigma,mu+1.96*sigma]confidence interval
+99% 2.58*sigma
+
+one tail
+95% 1.645
+99% 2.33
+
+standard normal distribution
+N(0,1) Z
+(x-mu)/sigma 
+
+lognormal distribution
+lnx ~ N()
+x ~ lognormal()
+期权估值
+Black-Scholes Model
+which never take negative values
+非负右偏
+
+Chi-square distribution
+标准正太分布的平方和
+了解
+2.作用
+检验方差
+sigma^2是否等于确定值
+3.性质
+positive value 
+positive skewed distribution
+n增加 approaches the normal distribution
+k 自由度 n-1
+E(X)=k D(X)=2k
+z1 z2 two independent 
+4.查表
+n-1 p => critical value
+one tail
+two tail
+alpha 右侧的面积
+95% 10
+3.247 20.483
+
+t distribution
+x~N(0,1)
+y~chi-square()
+x y independent
+x/(y/n)^1/2 ~ t
+了解
+Sx/n^1/2 standard error 标准误
+样本均值的标准差
+3.作用 检验均值，总体均值是否等于某一确定值
+4.特性
+symmetric
+the mean of t distribuition is zero ,its variance n/(n-2) >1
+n >= 30 normal distribution 
+低峰 肥尾 方差更大
+5.查表 critical value
+5% one tail
+10 two tail 
+n-1 
+
+F-Distribution
+1.了解
+u1 ~ chi-square(k1)
+u2 ~ chi-square(k2)
+u1 u2 independent
+u1/k1 / u2/k2
+2.作用
+两个总体方差是否相等
+sigma1^2=sigma2^2
+3.性质
+as d.f increases normal distribution 
+skewed to the right 
+4 查表
+分子自由度 分母自由度 alpha=0.05
+critical value
+
+mariginal probability unconditional
+
+推断性统计
+样本属性推断总体
+population sampling sample
+xbar s 
+mu sigma_x
+sample statistic estimation population parameter
+estimator 估计量
+parameter 参数
+
+hypothesis test 假设检验
+Central Limit Theorem CLT 中心极限定理
+x n增加 n>=3-
+xbar ~ N(mu_x,simge_x^2/n)
+均值是总体均值，方差是总体方差/n
+变量
+总体方差不知道
+样本方差代替总体方差
+
+estimators
+unbiasedness 无偏性
+E(X)
+样本估计量的期望值等于总体参数期望值
+有效性
+样本方差最小
+
+consistency 
+n增加 准确
+BLUE
+best linear unbiased estimator
+
+istimation
+1 point estimation
+xbar => mu_x
+
+2 confidence interval estimation
+xbar-k*Sx <= ux <= xbar + kSx
+
+1.distribution Z t
+2.confidence level 99% 95%
+
+总体方差sigma已知 z
+总体方差sigma未知 t
+
+非正态总体 小样本 无法确定 <=30
+
+sigma_x
+CTL
+总体方差已知
+sigma/n^1/2
+Sx/n^1/2 standard error
+Sx:standard deviation
+
+hypothesis testing
+均值检验
+方差检验
+方差是否相等
+
+mu_x = mu_0
+sigma_x^2 = sigma_0^2
+
+1.提出原假设 猜总体
+H0 mu=10 想拒绝放H0
+Ha mu \= 10 
+双尾
+H0 mu >= 10 等号放原假设H0
+Ha mu < 10 单尾 看备择假设
+
+2.test statistics 规则工具
+z/t = xbar - u0 / Sx
+Sx = 
+sigma_x/n^1/2 总体方差已知
+Sx/n^1/2 总体方差未知
+
+3.画出分布 确定拒绝域
+confidence level 99% 95%
+单尾/双尾 看备择
+N() 95% two tail
+确定critical value
+确定拒绝域
+-1.96 1.96
+-1.645 1.645
+
+4.
+test statistics vs critical value
+算的统计量和critical value对比
+t n>=30 用正太分布
+critical value =2
+
+p-value 统计量对应的概率
+test statistics  对应的概率 面积
+p值和alpha 或者和alpha/2
+越小越拒绝 
+
+方差是否等于具体值
+H0 sigma^2 = sigma0^2
+chi-square
+(n-1)s^2/sigma0^2
+画出分布 确定拒绝域 查表
+判定
+了解
+
+test of variance diffence
+sigma1^2 = sigmal2^2
+always put the larger variance in the numerator
+the right-side tail
+
+Type I and Type II Errors
+
+H0 is true reject H0 Type I error 去真
+H0 is false do not reject H0 存伪 type II error
+
+power of the test H0 is false reject H0
+
+P(type I) = alpha  type II 此消彼长
+power of test  1-P(Type II)
+当n增加 type I下降 type II下降 power of test 上升
+
+
+
