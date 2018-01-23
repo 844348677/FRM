@@ -1,0 +1,410 @@
+regression
+y = b0 + b1*x1 + b2*x2
+一元回归
+多元回归
+
+time series
+自身预测自身
+时间序列
+
+simulation
+volatility time varying
+correlation copula
+
+Y = b0 + b1*X + epsilon
+总体 因变量 dependent variable Y
+自变量 independent variable X 
+explained variable
+explainatory variable
+
+y^ = 200 + 0.75x + e
+
+b0 intercept coefficient
+b1 slope coefficient
+
+作用
+1 二者的关系
+2 预测
+OLS
+
+b1 = Cov(x,y)/var(x)
+ordinary least squares
+经过 (xbar,ybar) x均值 y均值 点
+了解
+
+Cov(x,y)
+summation p(x,y)(xi-xbar)(yi-ybar)
+
+a linear relationship exists between X and Y
+X is not random. X is uncorrelated with the error term
+E(epsilon)=0
+the variance of the error term is constant
+Cov(epsilon_i,epsilon_j)=0
+the error term is normally distributed
+epsilon ~N(0,sigma^2)
+
+sum of squared residual
+explained sum of squares
+total sum of squares
+
+R^2 可决系数  the coefficient of determination
+R^2 = ESS/TSS = 1- RSS/TSS 
+R^2 <=1 越打越好
+
+SER = (RSS/n-2)^2 standard error of the regression (SER) 越小越好
+方程对数据的拟合程度 fitness
+
+一元回归 r_xy = +- R^2^1/2 相关系数等于可决系数的平方根
+
+regression coefficient hypothesis testing 系数的显著性检验
+1.
+H0:b1=0 Ha:b1 not= 0
+2
+t-test
+t=(b1-0) / Sb1
+3画出分布 找出拒绝域
+4 判定
+t vs t_alpha/2
+p值 越小越拒绝
+
+predicted value of the dependent variable
+了解
+point estimate
+
+condidence interval estimate
+y +- k*Sy
+
+多元回归
+y = b0 + b1x1 +b2x2 +b3x3
+delta L / delta b0 =0
+delta L / delta b1 =0
+delta L / delta b2 =0
+
+there is no exact linear relation between any two or more independent variable
+rho(x1,x2) not= +-1
+
+系数的显著性检验
+hypothesis test for a partial slope coefficient
+H0: b1=0 Ha: b2 not= 0
+H0: b2=0 Ha: b2 not= 0
+
+t = b1-0/Sb1 n-k-1 k自变量的个数
+
+画分布 拒绝域
+
+判定
+
+alpha=10% n=46
+
+joint hypothesis testing 方程的显著性检验
+y=b0+b1*x1+b2*x2+e
+
+H0 b1=b2=0 Ha b1 b2 至少有一个不为0
+F统计量
+F = ESS/k / SSR/n-k-1
+值较大
+the F-test here is always one-tail
+画分布 拒绝域
+判定只用右侧
+
+standard error of regression
+SER= (SSR/n-k-1)^1/2
+变量越多 R^2越大
+adjust R^2
+Ra^2 = 1 - RSS/n-k-1 / TSS/n
+
+interpreting regression result 
+anova table
+k 
+n-k-1
+n-1
+ess
+rss
+tss
+R^2
+Ra^2
+SER = RSS/n-k-1 ^1/2
+
+H0:lockup=0
+t=2.057-0 /0.337
+
+F
+
+dummy variables 哑变量
+y=b0+b1*x1+b2*x2
+
+qualitative events 定性的
+dummy variables are assigned a value of 0 and 1
+the difference in the dependent variable for the category represented by the dummy variable
+
+y x linear
+cov(x,epsilon)=0
+epsilon ~ N(0,sigma^2)
+cov(epsilon1,epsilon2) =0
+x1,x2不能完全线性相关
+
+导致的结果
+判定
+纠正
+
+var(epsilon) = sigma
+homoskedasticity 同方差
+heteroskedasticity 异方差
+1 sigma^2 和x有关
+2 sigma^2 和x无关
+unconditional and conditional 
+uncoditional heteroskedasticity
+conditional heteroskedasitcity
+does create significant problems
+1.含义 随着x的变化而变化
+2.结果 
+the standard errors are unreliable estimates
+the coefficient estimates b1 aren't affected
+P(Type I)大
+
+Cov(e_i,e_j) 不为0
+自相关
+serial correlation (autocorrelation)
+often found in time series date
+
+positive serial correlation
+negative serial correlation
+
+coefficient not biased
+standard error positive => under estimated
+
+multicollinearity x1 x2 多重共线性 相关关系很强
+highly correlated with each other
+
+two method to detect multicollinearity 
+t 每个系数都不显著
+F 这个放长都显著 
+x1 x2 相关系数
+
+3.处理
+omit 剔除
+
+omitted variable bias
+
+1.假设
+y x linear relation
+x epsilong Cov(x,epsilon)=0
+x1 x2 not perfect correlated
+e ~ N(0,sigma^2)
+Cov(ei,ej)=0
+
+L = min summaltion ei^2 = min summulation yi-(b0+b1x1+b2x2+e) ^2
+
+作用 1 x y关系 2 x->y prediction
+2 方程系数的含义
+
+3.检验
+R^2
+系数的显著性 H0:b1=0 Ha:b \=0 t
+方程的显著性检验 H0:b1=b2=0 Ha:b1 b2至少有一个不为0 F=ESS/k / RSS/n-k-1
+
+ANOVA 分析表
+
+方程是否满足假设
+Var(epsilon_i)=sigma^2 conditional unconditional 
+condition含义 结果 发现 纠正
+自相关 Cov(ei,ey) not= 0
+x1 x2 highly correlated
+ommitted variables
+
+time series variable 时间序列
+yt = phi1*yt-1 + phi2*yt-2+...+phip*yt-p + epsilont
+epsilon shock 外部冲击
+
+1.模型假设
+covariance stationary 方差平稳
+its mean and covariance structure to be stable over time
+
+level 水平值 not stationary 
+growth rate stationary
+white noise 平稳的时间序列
+N(0,sigma^2) 
+yt,yt-1 不相关
+
+2.如何判定平稳
+
+sample autocorelation function or correlogram
+yt , yt-1
+自相关系数
+
+3.常见模型
+1.auto regression 自回归
+yt=phi*yt-1 + epsilont AR(1)
+yt = phi1*yt-1 + phi2*yt-2 + epsilont AR(2)
+AR(P) P阶自回归模型 
+yt-1 滞后项
+
+yt=1.5yt-1 + 0.9yt-2 + epsilon
+令 yt-1 = phi*yt
+yt-2 = phi^2*yt
+|phi| < 1
+2. moving average 移动平均
+yt = epsilont + theta*et-1
+yt = epsilont + theta1*epsilont-1 + theta2*epsilon2
+MA(q)
+3.ARMA(p,q) 既考虑自身，也考虑外部冲击
+
+定量判定 p= q=
+
+4.判定阶数 p q
+AIC
+SIC
+最小的
+
+自己预测自己
+1.假设 covariance stationary
+level not stationary
+growth rate stationary
+white noise
+yt 0均值，同方差 yt yt-1 not correlation
+
+2.判定平稳
+BPQ / LBQ 本质是相关系数
+
+3. 三个模型
+
+p q
+AIC SIC 越小越好
+协整
+
+simulation methods
+
+乌拉姆
+冯诺依曼
+
+are central to financial engineering and risk management
+delta s / s = mu*delta t + delta*delta t^1/2*epsilon
+
+St= S0
+
+epsilon*delta t^1/2 =Z
+Z~N(0,delta t)
+epsilon~N(0,1)
+
+几何布朗运动
+
+advantage of simulation
+simplifies matters 分布 参数
+visualize the probability distribution 可视化
+incorporate correlation between input variables
+low-cost tool
+flexibility , they allow
+build the distributio of portfolios that 
+
+disadvantages
+outcome is only as good as the inputs we provide to our models (model risk) 参数准确
+as time interval shrinks, the volatility shrinks as well. experience discrete jumps
+are assumed tp have a normal distribution 尖峰肥尾
+
+分布的来源
+bootstrapping 
+historical distribution 随机抽样
+
+assume a particular probability 假设 参数使用历史
+historical data to estimate parameters
+
+goodness-of-fit 看拟合情况
+
+subjective guess 猜测
+
+bootstrapping method
+advantage without making strong distribution assumptions
+ineffective
+outliers in the data 异常值
+data are independent of the another
+
+sampling variation
+降低误差
+standard error estimate
+Sx = (var(x)/N)^1/2
+N增大
+
+variance reduction techniques 方差降低
+antithetic variates
+对偶变量
+
+control variates 控制变量
+中间变量 
+
+epsilon 计算机生成
+1 物理方法生成 真的随机数 
+2 递推 Xn=g(Xn-1)
+
+pseudorandom number generators 伪随机数
+
+var value at risk
+度量风险的一种工具
+100天 99% confidence level
+100*(1-99%)=1
+倒数第一个最低的数据 50W
+未来损失最多为50
+
+1.收益率的计算
+u_t = St-St-1 / St-1 今天价格-昨天价格 / 昨天价格
+continuously compound return
+u_t = ln(Si/Si-1)
+Si = Si-1*e^r
+
+ubar =0
+sigma^2 = 1/m summulation ui^2
+
+权重不同
+三个模型
+
+ARCH Model
+shock 外部因素导致价格变化
+V_l long-run variance 长期
+w = r*V_l
+r + alpha1+alpha2=1
+ARCH(2)
+
+EWMA Mode 指数加权平均
+lambda docay factor 衰减因子 <1
+今天的波动受昨天的波动和收益率影响
+sigman^2 = lambda*sigman^2 + (1-lambda)*n-1^2
+lambda 大 
+
+using EWMA to forecast future volatility 迭代
+3天之前的波动对当前波动的系数 lambda^3 lambda^k
+k天之前收益对当前波动的系数 lambda^(k-1)*(1-lambda)
+
+the attractive feature of EWMA approach
+tracks volatility changes 跟踪变动
+relatively little data needs
+
+GARCH(1,1) EWMA+ARCH
+sigma^2 = w + alpha*un-1^2 + beta*sigman-1^2
+w = r*Vl long-term variance
+alpha+beta+r=1
+
+alpha + beta persistence 持久性
+mean reversion 均值回归 alpha+beta <1
+
+alpha+beta 越小 回归越快  alpha+beta=1回不去
+
+using GARCH(1,1) to forecast future volatility
+Vl+(alpha+beta)^t*(sigman^2-Vl)
+
+相关系数
+用 Cov->sigma_n-1^2
+ux*uy->ux^2
+
+copulas
+marginal 两个
+one-to-one mappings 
+联合
+度量信用风险模型
+
+
+
+
+
+
+
+
+
