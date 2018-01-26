@@ -1,0 +1,232 @@
+foundations of risk management
+
+uncertainty
+loss vs risk
+
+gain loss
+
+variability of the loss
+incremental risk in order to generate incremental gains
+
+value at risk(VaR)
+
+dangerous in non-normal circumstances in illiquid positions,and over a long period of time
+
+scenario analysis
+worst-case scenario analysis
+stress testing
+
+ERM enterprise risk management
+integrative approach
+
+risk = gain + loss changing
+
+expected loss = loss * prob 
+$*% = $ normal course of business
+
+unexpected loss
+loss outside of the normal course of business
+correlation risk 
+祸不单行
+
+risk and reward
+loss reward
+trade-off
+
+correlation ignored
+management bonuses
+market risk
+credit risk
+天灾 人祸
+default risk
+bankruptcy risk
+
+downgrade risk
+settlement risk
+
+ways to reduce credit risk
+
+operational risk
+人祸
+
+funding liquidity risk
+trading liquidity risk
+
+counterparty risk -> capital
+
+value-added
+XVA
+FVA
+Jon Gregory
+
+a change in tax law
+
+business risk MBA
+
+reputation risk
+
+management to lose focus on the core business
+
+lowering its cost of capital debt or liability
+reducing the volatility of its earnings/cash flows
+increase its debt capacity
+reduced volatility of earnings
+management to control its financial performance
+cheaper than purchasing an insurance policy
+
+shareholders -> board -> management
+operational executive mgmt investors
+
+positive net present value  NPV
+risk appetite
+
+accounting or economic profits
+the process of mapping risks
+
+gross position
+static vs dynamic hedging strategies
+
+exchange-traded futures option bond
+OTC instruments option bond
+
+coporate governance
+larry lang 郎咸平
+邹至庄
+
+stakeholders
+
+management 
+personal remuneration
+chief executive officer
+CRO
+
+Margin Call
+
+risk management committee
+compensation committee
+
+clawbacks
+
+audit committee
+
+risk appetitie 胃口
+willingness not ability
+
+ERM
+traditional approach 
+
+integragted centralized
+reports to the company's CEO and the board
+structure
+contradictory
+
+a holistic view 
+
+risk transfer
+hedge transfer avoid retain
+
+new projects 
+tradeoff
+risk and expected return can not be made in real time
+challenge
+
+too restrictive
+too inflexible
+
+banks that operate with too much risk cannot conduct their business
+
+hire potential employees
+
+budget
+better govornance
+real-world banks cannot control risk for threee reason
+real-time 
+highly imprecise
+by behavioral biases
+
+incentives
+culture
+
+形而上
+insensitive overall level of risk
+
+weak commitments
+retaliate against
+strong commitments
+creating incentive
+伊藤清
+Ito's lamma
+
+VaR = FRM
+correlations
+
+copula
+infrastructure
+optimization
+
+accuracy integrity
+completeness
+
+comprehensiveness
+
+depth and scope 
+clarity and usefulness
+
+home/host cooperation
+
+financial impacts
+confidence-based impacts
+satisfaction impacts
+productivity impacts
+compliance impacts
+
+anti-money laundering
+Sarbanes-Oxley
+Graham-Leach-Bliley Act
+
+accuracy
+completeness
+
+data validation
+data quality inspection
+
+infographics
+
+CAPM
+the Standard Capital Asset Pricing Model
+
+economics
+acct
+corp finance
+finance
+international econ
+
+1952 CAPM
+Markowitz
+
+expected return / mean u
+variance 
+standard deviation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

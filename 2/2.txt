@@ -1,0 +1,139 @@
+CAPM
+
+assumptions about Markowitz portfolio theory
+effective frontier
+EF
+
+sigma_min
+
+minimun variance portfolio
+
+concave
+convex
+EF
+
+Rf bond
+Rf A
+组合投资，再做组合投资
+
+Capital Market Line CML
+after the addition of risk-free asset
+
+M portfolio market
+B leverage
+
+CML systematic risk
+total risk = systematic risk + unsystematic risk
+
+beta 1 一倍 2 两倍 -2 反向两倍
+
+security SML
+security market line
+
+Sharpe Ratio
+
+Treynor Ratio
+
+Sortino Ratio
+MAR minimun acceptable return =Rf
+半方差
+
+Jensen's Alpha
+excess return 
+unsystematic risk
+beta_p相同
+
+information ratio
+
+portfolio benchmark
+trading error
+the standard deviation
+
+姜凯 张达红 黄奕
+
+APT
+
+single-factor model
+multifator model
+
+CAPM
+
+Fama-French
+
+financial disasters
+
+barings bank
+Nick Leeson
+straddles
+sell call + sell put
+ 
+allied irish bank
+John Rusnak
+
+社交工程学
+
+creating imaginary trades
+
+a general culture of hostility toward control staff
+
+UBS
+Union Bank of Switzerland
+
+法兴银行
+
+sumitomo corporation of Japan
+
+metallgesellschaft
+MGRM
+
+stack & roll
+
+Long-Term Capital
+长期资本公司的升腾与陨落
+
+Scholes 
+Merton
+Black
+
+relative value
+credit spreads
+equity volatility
+
+low-frequency/high-severity events were uncorrelated over time
+
+Banker's Trust 信孚
+
+Enron
+
+risk management failures
+
+the role of risk management
+
+there is not a risk management issure as long as the risks were properly understood
+deciding whether to take a known risk is not a decision for risk manager
+
+risk manangement
+mismeasurement of known risks
+understand the distrubtion of possible returns
+correlations may be mismeasured
+a known risk has not manifested itself
+
+ignored known risks
+unknown risk
+most unknown
+
+deadweight costs
+by increasing its leverage
+risk appetite
+
+the partners of LTCM collectively had almost $2 billion 
+
+GARP Code of Conduct
+
+
+
+
+
+
+
+
